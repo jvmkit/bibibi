@@ -2,6 +2,12 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-09-01 11:11:11 +0100
+audiolink: http://threecast.b0.upaiyun.com/threecast-episode-1.mp3
+categories: podcast 
+podcasttype: audio/mpeg
+podcastlength: 4941
+bytelength: 39545166
+episodeid: 1
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

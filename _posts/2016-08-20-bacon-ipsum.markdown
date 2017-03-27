@@ -2,6 +2,12 @@
 layout: post
 title:  "Bacon ipsum"
 date:   2016-08-20 11:11:11 +0100
+audiolink: http://threecast.b0.upaiyun.com/threecast-episode-1.mp3
+categories: podcast 
+podcasttype: audio/mpeg
+podcastlength: 4941
+bytelength: 39545166
+episodeid: 1
 thumbnail: earth.jpg
 ---
 
