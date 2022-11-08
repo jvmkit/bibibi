@@ -3,29 +3,48 @@ layout: default
 ---
 
 <div class="home">
+  <div class="latest-entry">
+    {% assign post = site.posts.first %}
+    <div class="post-date">
+      <div class="day">{{ post.date | date: "%-d" }}</div>
+      <div class="month">{{ post.date | date: "%b/%Y" }}</div>
+    </div>
+    <div class="entry-info">
+      <h1 class="entry-title">
+      {% assign content = post.content %}
+      {% if post.title %}
+      <a href="{{ root_url }}{{ post.url }}">#{{ post.episodeid }}. {{ post.title }}</a>
+      {% endif %}
+      </h1>
+      <div class="post-meta"><a href="{{ post.audiolink }}">Download Episode</a> • <a href="{{ root_url }}{{ post.url }}#disqus_thread">Comments</a></div>
+    
+      <audio class="episode-player" controls="" preload="meta">
+        <source src="{{ post.audiolink }}" />
+      </audio>
+      <div class="entry-content">{{ content }}</div>
+    </div>
+  </div>
 
-	<ul class="post-list">
-		{% for post in site.posts %}
-		<li>
-			<article>
-				<header class="post-header">
-					<div>
-						<span>Posted on </span><span class="post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
-					</div>
-
-					<h2>
-						<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-					</h2>
-				</header>
-
-				<div class="entry-content">
-					{{ post.content }}
-				</div>
-			</article>
-		</li>
-		{% endfor %}
-	</ul>
-
-	<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <ul class="post-list">
+    {% for post in site.posts offset:1 %}
+      <li>
+        <div class="post-date">
+          <div class="day">{{ post.date | date: "%-d" }}</div>
+          <div class="month">{{ post.date | date: "%b/%Y" }}</div>
+        </div>
+        <div class="post-info">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">#{{ post.episodeid }}. {{ post.title }}</a>
+          </h2>
+          <div class="post-meta"><a href="{{ post.audiolink }}">Download Episode</a> • <a href="{{ root_url }}{{ post.url }}#disqus_thread">Comments</a></div>
+          <audio class="episode-player" controls="">
+            <source src="{{ post.audiolink }}" />
+          </audio>
+        </div>
+        <div class="post-summary">
+          {{ post.excerpt }}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
 </div>
