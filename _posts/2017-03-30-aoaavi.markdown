@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "NO.5흔들려"
+title:  "흔들려"
 date:   2017-03-30 11:11:11 +0100
 audiolink: http://storage.live.com/items/D01E0518BC828098%21166825?filename=aoa.mp4
 categories: podcast 
 podcasttype: audio/mpeg
 podcastlength: 241
 bytelength: 16788111
-episodeid: 1
+episodeid: 5
 ---
 흔들려—AOA

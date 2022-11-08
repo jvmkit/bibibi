@@ -1,0 +1,12 @@
+---
+layout: post
+title: "短小猫叫触发"
+date: 2022-11-08 12:06:11 +0800
+audiolink: https://poboc-my.sharepoint.com/personal/areyouok_so_edu_rs/_layouts/52/download.aspx?share=EXrzepDB5pZMtIiFBxb0Eh8BJkDKS_9M5Uc9e2gGL0SH4w
+categories: podcast 
+podcasttype: audio/mpeg
+podcastlength: "00:02:36"
+bytelength: 27580460
+episodeid: 10
+---
+短小猫叫触发
