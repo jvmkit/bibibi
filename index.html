@@ -16,7 +16,7 @@ layout: default
       <a href="{{ root_url }}{{ post.url }}">#{{ post.episodeid }}. {{ post.title }}</a>
       {% endif %}
       </h1>
-      <div class="post-meta"><a href="{{ post.audiolink }}">下载</a> • <a href="{{ root_url }}{{ post.url }}#disqus_thread">评论</a></div>
+      <div class="post-meta"><a href="{{ post.audiolink }}">下载</a> • <a href="{{ root_url }}{{ post.url }}">评论</a></div>
     
       <audio class="episode-player" controls="" preload="meta">
         <source src="{{ post.audiolink }}" />
@@ -36,7 +36,7 @@ layout: default
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">#{{ post.episodeid }}. {{ post.title }}</a>
           </h2>
-          <div class="post-meta"><a href="{{ post.audiolink }}">下载</a> • <a href="{{ root_url }}{{ post.url }}#disqus_thread">评论</a></div>
+          <div class="post-meta"><a href="{{ post.audiolink }}">下载</a> • <a href="{{ root_url }}{{ post.url }}">评论</a></div>
           <audio class="episode-player" controls="">
             <source src="{{ post.audiolink }}" />
           </audio>
