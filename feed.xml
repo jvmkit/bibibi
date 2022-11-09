@@ -12,7 +12,7 @@ layout: null
     <image>
       <title>{{ site.title | xml_escape }}</title>
       <link>{{ site.url }}{{ site.baseurl }}/</link>
-      <url>https://pod.nii.im/logo.jpg</url>
+      <url>https://bibibi.nii.im/logo.jpg</url>
     </image>
     <itunes:author>{{ site.data.author.name }}</itunes:author>
     <itunes:subtitle>{{ site.description | xml_escape | truncatewords 250 }}</itunes:subtitle>
@@ -22,7 +22,7 @@ layout: null
       <itunes:email>{{ site.data.author.email }}</itunes:email>
     </itunes:owner>
     <itunes:explicit>No</itunes:explicit>
-    <itunes:image href="https://pod.nii.im/logo.jpg"/>
+    <itunes:image href="https://bibibi.nii.im/logo.jpg"/>
     <itunes:category text="Technology" />
     {% for post in site.categories.podcast %}
       <item>
