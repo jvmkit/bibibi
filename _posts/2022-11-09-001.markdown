@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "【猫耳】-布丁森林-直播ASMR(20201210)"
+title: "【猫耳】-布丁森林-直播ASMR(20221008)"
 date: 2022-11-09 01:06:11 +0800
-audiolink: https://poboc-my.sharepoint.com/personal/areyouok_so_edu_rs/_layouts/52/download.aspx?share=ETzbI6ohQ41MtnEsO18ywXEB9SstvPXS5FROCGcIZIOsLA
+audiolink: https://poboc-my.sharepoint.com/personal/areyouok_so_edu_rs/_layouts/52/download.aspx?share=EV79cSUGm7xBuFo61L38iTwB1jyOQDr7cxLzc0Fx8465CA
 categories: podcast 
 podcasttype: audio/mpeg
-podcastlength: "04:21:45"
-bytelength: 618752149
+podcastlength: "01:52:11"
+bytelength: 107758846
 episodeid: 12
 ---
-【猫耳】-布丁森林-直播ASMR(2020年12月10日)
+【猫耳】-布丁森林-直播ASMR(2022年10月08日)
